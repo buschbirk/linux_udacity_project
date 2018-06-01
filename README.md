@@ -79,7 +79,7 @@ sudo python3 populate_item_catalogue.py
 
 ## Changes made in the item_cat_app directory
 * Renamed "views.py" to ``__init__.py``
-* Added the current working directory to sys.path in __init__.py
+* Added the current working directory to sys.path in ``__init__.py``
 * Added new file item_cat_app.wsgi with the following content:
 ```
 #!/usr/bin/python3
