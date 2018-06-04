@@ -25,7 +25,10 @@ sudo adduser grader sudo
 ```
 
 ## Changing SSH port to 2200 and changing firewall settings
-Type ```sudo nano /etc/ssh/sshd_config``` and change 'port 22' to 'port 2200'
+Type ```sudo nano /etc/ssh/sshd_config```:
+* Change 'port 22' to 'port 2200'
+* 'Uncomment 'PermitRootLogin prohibit-password'
+
 Set up firewall:
 ```
 sudo ufw default deny incoming
